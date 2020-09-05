@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="programs.html"><strong aria-hidden="true">1.</strong> L Programs</a></li><li class="chapter-item expanded "><a href="items.html"><strong aria-hidden="true">2.</strong> Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="functions.html"><strong aria-hidden="true">2.1.</strong> Functions</a></li><li class="chapter-item expanded "><a href="adts.html"><strong aria-hidden="true">2.2.</strong> ADT Declarations</a></li></ol></li><li class="chapter-item expanded "><a href="expressions.html"><strong aria-hidden="true">3.</strong> Expressions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="expressions/literal-expr.html"><strong aria-hidden="true">3.1.</strong> Literal Expressions</a></li><li class="chapter-item expanded "><a href="expressions/path-expr.html"><strong aria-hidden="true">3.2.</strong> Path Expressions</a></li><li class="chapter-item expanded "><a href="expressions/group-expr.html"><strong aria-hidden="true">3.3.</strong> Group Expressions</a></li><li class="chapter-item expanded "><a href="expressions/block-expr.html"><strong aria-hidden="true">3.4.</strong> Block Expressions</a></li><li class="chapter-item expanded "><a href="expressions/operator-expr.html"><strong aria-hidden="true">3.5.</strong> Operator Expressions</a></li><li class="chapter-item expanded "><a href="expressions/tuple-expr.html"><strong aria-hidden="true">3.6.</strong> Tuple Expressions</a></li><li class="chapter-item expanded "><a href="expressions/return-expr.html"><strong aria-hidden="true">3.7.</strong> Return Expressions</a></li><li class="chapter-item expanded "><a href="expressions/assignment-expr.html"><strong aria-hidden="true">3.8.</strong> Assignment Expressions</a></li><li class="chapter-item expanded "><a href="expressions/closure-expr.html"><strong aria-hidden="true">3.9.</strong> Closure Expressions</a></li><li class="chapter-item expanded "><a href="expressions/call-expr.html"><strong aria-hidden="true">3.10.</strong> Call Expressions</a></li><li class="chapter-item expanded "><a href="expressions/cond-expr.html"><strong aria-hidden="true">3.11.</strong> Conditional Expressions</a></li><li class="chapter-item expanded "><a href="expressions/struct-expr.html"><strong aria-hidden="true">3.12.</strong> Struct Expressions</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="programs.html"><strong aria-hidden="true">1.</strong> L Programs</a></li><li class="chapter-item expanded "><a href="lexical-syntax.html"><strong aria-hidden="true">2.</strong> Lexical Syntax</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="keywords.html"><strong aria-hidden="true">2.1.</strong> Keywords</a></li><li class="chapter-item expanded "><a href="identifiers.html"><strong aria-hidden="true">2.2.</strong> Identifiers</a></li><li class="chapter-item expanded "><a href="comments.html"><strong aria-hidden="true">2.3.</strong> Comments</a></li></ol></li><li class="chapter-item expanded "><a href="items.html"><strong aria-hidden="true">3.</strong> Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="functions.html"><strong aria-hidden="true">3.1.</strong> Functions</a></li><li class="chapter-item expanded "><a href="adts.html"><strong aria-hidden="true">3.2.</strong> ADT Declarations</a></li><li class="chapter-item expanded "><a href="type-parameters.html"><strong aria-hidden="true">3.3.</strong> Type parameters</a></li></ol></li><li class="chapter-item expanded "><a href="expressions.html"><strong aria-hidden="true">4.</strong> Expressions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="expressions/literal-expr.html"><strong aria-hidden="true">4.1.</strong> Literal Expressions</a></li><li class="chapter-item expanded "><a href="expressions/path-expr.html"><strong aria-hidden="true">4.2.</strong> Path Expressions</a></li><li class="chapter-item expanded "><a href="expressions/group-expr.html"><strong aria-hidden="true">4.3.</strong> Group Expressions</a></li><li class="chapter-item expanded "><a href="expressions/block-expr.html"><strong aria-hidden="true">4.4.</strong> Block Expressions</a></li><li class="chapter-item expanded "><a href="expressions/operator-expr.html"><strong aria-hidden="true">4.5.</strong> Operator Expressions</a></li><li class="chapter-item expanded "><a href="expressions/tuple-expr.html"><strong aria-hidden="true">4.6.</strong> Tuple Expressions</a></li><li class="chapter-item expanded "><a href="expressions/return-expr.html"><strong aria-hidden="true">4.7.</strong> Return Expressions</a></li><li class="chapter-item expanded "><a href="expressions/assignment-expr.html"><strong aria-hidden="true">4.8.</strong> Assignment Expressions</a></li><li class="chapter-item expanded "><a href="expressions/closure-expr.html"><strong aria-hidden="true">4.9.</strong> Closure Expressions</a></li><li class="chapter-item expanded "><a href="expressions/call-expr.html"><strong aria-hidden="true">4.10.</strong> Call Expressions</a></li><li class="chapter-item expanded "><a href="expressions/cond-expr.html"><strong aria-hidden="true">4.11.</strong> Conditional Expressions</a></li><li class="chapter-item expanded "><a href="expressions/struct-expr.html"><strong aria-hidden="true">4.12.</strong> Struct Expressions</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -169,6 +169,38 @@
 </blockquote>
 <p>An L program consists of a collection of items where one of them is the
 main function.</p>
+<h1><a class="header" href="#lexical-syntax" id="lexical-syntax">Lexical Syntax</a></h1>
+<h1><a class="header" href="#keywords" id="keywords">Keywords</a></h1>
+<blockquote>
+<ul>
+<li><code>fn</code></li>
+<li><code>struct</code></li>
+<li><code>enum</code></li>
+<li><code>if</code></li>
+<li><code>else</code></li>
+<li><code>true</code></li>
+<li><code>false</code></li>
+<li><code>let</code></li>
+<li><code>pub</code></li>
+<li><code>return</code></li>
+<li><code>continue</code></li>
+<li><code>break</code></li>
+<li><code>mut</code></li>
+<li><code>for</code></li>
+<li><code>in</code></li>
+</ul>
+</blockquote>
+<h1><a class="header" href="#identifiers" id="identifiers">Identifiers</a></h1>
+<blockquote>
+<p>Lexer:</p>
+<p><code>[_a-zA-Z][a-zA-Z0-9]*</code></p>
+</blockquote>
+<h1><a class="header" href="#comments" id="comments">Comments</a></h1>
+<blockquote>
+<p>Lexer: </p>
+<p>line-comment: <code>//</code> </p>
+<p>block-comment : <code>/* .. */</code></p>
+</blockquote>
 <h1><a class="header" href="#items" id="items">Items</a></h1>
 <blockquote>
 <p>Syntax:</p>
@@ -178,7 +210,28 @@ main function.</p>
       | &lt;<a href="structs.html">struct-decl</a>&gt;</p>
 </blockquote>
 <h1><a class="header" href="#functions" id="functions">Functions</a></h1>
+<blockquote>
+<p>Syntax:</p>
+<p>&lt;<em>fn</em>&gt; ::= <code>fn</code> &lt;<em><a href="identifiers.html">ident</a></em>&gt;
+&lt;<em><a href="type-parameters.html">generics</a></em>&gt;<sup>?</sup> (&lt;<em>params</em>&gt;<sup>?</sup>)
+<em>&lt;return-type&gt;</em>
+<em>&lt;<a href="expressions/block-expr.html">block-expr</a>&gt;</em></p>
+<p>&lt;<em>params</em>&gt; ::= &lt;<em>param</em>&gt; (<code>,</code> &lt;<em>param</em>&gt;)<sup>*</sup></p>
+<p>&lt;<em>param</em>&gt; ::= &lt;<em><a href="expressions.html">expr</a></em>&gt; <code>:</code> &lt;<em><a href="types.html">type</a></em>&gt;</p>
+<p>&lt;<em>return-type</em>&gt; ::= <code>-&gt;</code> &lt;<em><a href="types.html">type</a></em>&gt;</p>
+</blockquote>
+<!-- interesting, <_something_> seems to work as I wish -->
+<h3><a class="header" href="#examples" id="examples">Examples</a></h3>
+<pre><code>fn identity&lt;T&gt;(t: T) -&gt; T {
+    t
+}
+</code></pre>
+<pre><code>fn naive_fib(n: number) -&gt; number {
+    if n &lt; 2 { n } else { naive_fib(n-1) + naive_fib(n-2) }
+}
+</code></pre>
 <h1><a class="header" href="#adt-declarations" id="adt-declarations">ADT Declarations</a></h1>
+<h1><a class="header" href="#type-parameters" id="type-parameters">Type parameters</a></h1>
 <h1><a class="header" href="#expressions" id="expressions">Expressions</a></h1>
 <h1><a class="header" href="#literal-expressions" id="literal-expressions">Literal Expressions</a></h1>
 <h1><a class="header" href="#path-expressions" id="path-expressions">Path Expressions</a></h1>
