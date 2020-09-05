@@ -5,7 +5,7 @@
 > &lt;_fn_&gt; ::= `fn` &lt;_[ident]_&gt;
 > &lt;_[generics]_&gt;<sup>?</sup> (&lt;_params_&gt;<sup>?</sup>)
 > _&lt;return-type&gt;_
-> _&lt;[block-expr]&gt;_
+> _&lt;[block-expr]&gt;_\
 >
 > &lt;_params_&gt; ::= &lt;_param_&gt; (`,` &lt;_param_&gt;)<sup>*</sup>
 >
