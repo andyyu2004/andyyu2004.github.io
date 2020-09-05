@@ -3,9 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>L</title>
-        
-        <meta name="robots" content="noindex" />
+        <title>Expressions - L</title>
         
         
 
@@ -95,7 +93,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="programs.html"><strong aria-hidden="true">1.</strong> L Programs</a></li><li class="chapter-item expanded "><a href="items.html"><strong aria-hidden="true">2.</strong> Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="functions.html"><strong aria-hidden="true">2.1.</strong> Functions</a></li><li class="chapter-item expanded "><a href="adts.html"><strong aria-hidden="true">2.2.</strong> ADT Declarations</a></li></ol></li><li class="chapter-item expanded "><a href="expressions.html"><strong aria-hidden="true">3.</strong> Expressions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="expressions/literal-expr.html"><strong aria-hidden="true">3.1.</strong> Literal Expressions</a></li><li class="chapter-item expanded "><a href="expressions/path-expr.html"><strong aria-hidden="true">3.2.</strong> Path Expressions</a></li><li class="chapter-item expanded "><a href="expressions/group-expr.html"><strong aria-hidden="true">3.3.</strong> Group Expressions</a></li><li class="chapter-item expanded "><a href="expressions/block-expr.html"><strong aria-hidden="true">3.4.</strong> Block Expressions</a></li><li class="chapter-item expanded "><a href="expressions/operator-expr.html"><strong aria-hidden="true">3.5.</strong> Operator Expressions</a></li><li class="chapter-item expanded "><a href="expressions/tuple-expr.html"><strong aria-hidden="true">3.6.</strong> Tuple Expressions</a></li><li class="chapter-item expanded "><a href="expressions/return-expr.html"><strong aria-hidden="true">3.7.</strong> Return Expressions</a></li><li class="chapter-item expanded "><a href="expressions/assignment-expr.html"><strong aria-hidden="true">3.8.</strong> Assignment Expressions</a></li><li class="chapter-item expanded "><a href="expressions/closure-expr.html"><strong aria-hidden="true">3.9.</strong> Closure Expressions</a></li><li class="chapter-item expanded "><a href="expressions/call-expr.html"><strong aria-hidden="true">3.10.</strong> Call Expressions</a></li><li class="chapter-item expanded "><a href="expressions/cond-expr.html"><strong aria-hidden="true">3.11.</strong> Conditional Expressions</a></li><li class="chapter-item expanded "><a href="expressions/struct-expr.html"><strong aria-hidden="true">3.12.</strong> Struct Expressions</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="programs.html"><strong aria-hidden="true">1.</strong> L Programs</a></li><li class="chapter-item expanded "><a href="items.html"><strong aria-hidden="true">2.</strong> Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="functions.html"><strong aria-hidden="true">2.1.</strong> Functions</a></li><li class="chapter-item expanded "><a href="adts.html"><strong aria-hidden="true">2.2.</strong> ADT Declarations</a></li></ol></li><li class="chapter-item expanded "><a href="expressions.html" class="active"><strong aria-hidden="true">3.</strong> Expressions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="expressions/literal-expr.html"><strong aria-hidden="true">3.1.</strong> Literal Expressions</a></li><li class="chapter-item expanded "><a href="expressions/path-expr.html"><strong aria-hidden="true">3.2.</strong> Path Expressions</a></li><li class="chapter-item expanded "><a href="expressions/group-expr.html"><strong aria-hidden="true">3.3.</strong> Group Expressions</a></li><li class="chapter-item expanded "><a href="expressions/block-expr.html"><strong aria-hidden="true">3.4.</strong> Block Expressions</a></li><li class="chapter-item expanded "><a href="expressions/operator-expr.html"><strong aria-hidden="true">3.5.</strong> Operator Expressions</a></li><li class="chapter-item expanded "><a href="expressions/tuple-expr.html"><strong aria-hidden="true">3.6.</strong> Tuple Expressions</a></li><li class="chapter-item expanded "><a href="expressions/return-expr.html"><strong aria-hidden="true">3.7.</strong> Return Expressions</a></li><li class="chapter-item expanded "><a href="expressions/assignment-expr.html"><strong aria-hidden="true">3.8.</strong> Assignment Expressions</a></li><li class="chapter-item expanded "><a href="expressions/closure-expr.html"><strong aria-hidden="true">3.9.</strong> Closure Expressions</a></li><li class="chapter-item expanded "><a href="expressions/call-expr.html"><strong aria-hidden="true">3.10.</strong> Call Expressions</a></li><li class="chapter-item expanded "><a href="expressions/cond-expr.html"><strong aria-hidden="true">3.11.</strong> Conditional Expressions</a></li><li class="chapter-item expanded "><a href="expressions/struct-expr.html"><strong aria-hidden="true">3.12.</strong> Struct Expressions</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -161,44 +159,22 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#introduction" id="introduction">Introduction</a></h1>
-<h1><a class="header" href="#l-programs" id="l-programs">L Programs</a></h1>
-<blockquote>
-<p>Syntax</p>
-<p>&lt;program&gt; ::= &lt;<a href="items.html">item</a>&gt;*</p>
-</blockquote>
-<p>An L program consists of a collection of items where one of them is the
-main function.</p>
-<h1><a class="header" href="#items" id="items">Items</a></h1>
-<blockquote>
-<p>Syntax:</p>
-<p>&lt;item&gt; ::= &lt;vis&gt; &lt;item-kind&gt;</p>
-<p>&lt;item-kind&gt; <br />
-        ::= &lt;<a href="functions.html">function</a>&gt; <br />
-      | &lt;<a href="structs.html">struct-decl</a>&gt;</p>
-</blockquote>
-<h1><a class="header" href="#functions" id="functions">Functions</a></h1>
-<h1><a class="header" href="#adt-declarations" id="adt-declarations">ADT Declarations</a></h1>
-<h1><a class="header" href="#expressions" id="expressions">Expressions</a></h1>
-<h1><a class="header" href="#literal-expressions" id="literal-expressions">Literal Expressions</a></h1>
-<h1><a class="header" href="#path-expressions" id="path-expressions">Path Expressions</a></h1>
-<h1><a class="header" href="#group-expressions" id="group-expressions">Group Expressions</a></h1>
-<h1><a class="header" href="#block-expressions" id="block-expressions">Block Expressions</a></h1>
-<h1><a class="header" href="#operator-expressions" id="operator-expressions">Operator Expressions</a></h1>
-<h1><a class="header" href="#tuple-expressions" id="tuple-expressions">Tuple Expressions</a></h1>
-<h1><a class="header" href="#return-expressions" id="return-expressions">Return Expressions</a></h1>
-<h1><a class="header" href="#assignment-expressions" id="assignment-expressions">Assignment Expressions</a></h1>
-<h1><a class="header" href="#closure-expressions" id="closure-expressions">Closure Expressions</a></h1>
-<h1><a class="header" href="#call-expressions" id="call-expressions">Call Expressions</a></h1>
-<h1><a class="header" href="#conditional-expressions" id="conditional-expressions">Conditional Expressions</a></h1>
-<h1><a class="header" href="#struct-expressions" id="struct-expressions">Struct Expressions</a></h1>
+                        <h1><a class="header" href="#expressions" id="expressions">Expressions</a></h1>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="adts.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
+                        
+                            <a rel="next" href="expressions/literal-expr.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -208,7 +184,15 @@ main function.</p>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="adts.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
+                
+                    <a rel="next" href="expressions/literal-expr.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                 
             </nav>
 
@@ -241,14 +225,6 @@ main function.</p>
         <!-- Custom JS scripts -->
         
 
-        
-        
-        <script type="text/javascript">
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
-        
         
 
     </body>
