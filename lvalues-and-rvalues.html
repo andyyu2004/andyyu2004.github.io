@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Assignment Expressions - L</title>
+        <title>Lvalues and Rvalues - L</title>
         
         
 
@@ -18,26 +18,26 @@
         <meta name="theme-color" content="#ffffff" />
 
         
-        <link rel="icon" href="../favicon.svg">
+        <link rel="icon" href="favicon.svg">
         
         
-        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="shortcut icon" href="favicon.png">
         
-        <link rel="stylesheet" href="../css/variables.css">
-        <link rel="stylesheet" href="../css/general.css">
-        <link rel="stylesheet" href="../css/chrome.css">
-        <link rel="stylesheet" href="../css/print.css" media="print">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         
-        <link rel="stylesheet" href="../fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
         
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="../highlight.css">
-        <link rel="stylesheet" href="../tomorrow-night.css">
-        <link rel="stylesheet" href="../ayu-highlight.css">
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         
@@ -47,7 +47,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "../";
+            var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -93,7 +93,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../programs.html"><strong aria-hidden="true">1.</strong> L Programs</a></li><li class="chapter-item expanded "><a href="../lexical-syntax.html"><strong aria-hidden="true">2.</strong> Lexical Syntax</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../keywords.html"><strong aria-hidden="true">2.1.</strong> Keywords</a></li><li class="chapter-item expanded "><a href="../identifiers.html"><strong aria-hidden="true">2.2.</strong> Identifiers</a></li><li class="chapter-item expanded "><a href="../comments.html"><strong aria-hidden="true">2.3.</strong> Comments</a></li></ol></li><li class="chapter-item expanded "><a href="../items.html"><strong aria-hidden="true">3.</strong> Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../functions.html"><strong aria-hidden="true">3.1.</strong> Functions</a></li><li class="chapter-item expanded "><a href="../adts.html"><strong aria-hidden="true">3.2.</strong> ADT Declarations</a></li><li class="chapter-item expanded "><a href="../type-parameters.html"><strong aria-hidden="true">3.3.</strong> Type parameters</a></li></ol></li><li class="chapter-item expanded "><a href="../statements.html"><strong aria-hidden="true">4.</strong> Statements</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../statements/let-stmts.html"><strong aria-hidden="true">4.1.</strong> Let Statements</a></li><li class="chapter-item expanded "><a href="../statements/expr-stmts.html"><strong aria-hidden="true">4.2.</strong> Expression Statements</a></li></ol></li><li class="chapter-item expanded "><a href="../expressions.html"><strong aria-hidden="true">5.</strong> Expressions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../expressions/literal-expr.html"><strong aria-hidden="true">5.1.</strong> Literal Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/path-expr.html"><strong aria-hidden="true">5.2.</strong> Path Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/group-expr.html"><strong aria-hidden="true">5.3.</strong> Group Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/block-expr.html"><strong aria-hidden="true">5.4.</strong> Block Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/operator-expr.html"><strong aria-hidden="true">5.5.</strong> Operator Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/tuple-expr.html"><strong aria-hidden="true">5.6.</strong> Tuple Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/return-expr.html"><strong aria-hidden="true">5.7.</strong> Return Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/assignment-expr.html" class="active"><strong aria-hidden="true">5.8.</strong> Assignment Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/closure-expr.html"><strong aria-hidden="true">5.9.</strong> Closure Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/call-expr.html"><strong aria-hidden="true">5.10.</strong> Call Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/cond-expr.html"><strong aria-hidden="true">5.11.</strong> Conditional Expressions</a></li><li class="chapter-item expanded "><a href="../expressions/struct-expr.html"><strong aria-hidden="true">5.12.</strong> Struct Expressions</a></li></ol></li><li class="chapter-item expanded "><a href="../patterns.html"><strong aria-hidden="true">6.</strong> Patterns</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../patterns/identifier-pattern.html"><strong aria-hidden="true">6.1.</strong> Identifier Pattern</a></li><li class="chapter-item expanded "><a href="../patterns/wildcard-pattern.html"><strong aria-hidden="true">6.2.</strong> Wildcard Pattern</a></li></ol></li><li class="chapter-item expanded "><a href="../type-system.html"><strong aria-hidden="true">7.</strong> The Type System</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types.html"><strong aria-hidden="true">7.1.</strong> Types</a></li><li class="chapter-item expanded "><a href="../types/primitive-types.html"><strong aria-hidden="true">7.2.</strong> Primitive Types</a></li><li class="chapter-item expanded "><a href="../types/parenthesized-types.html"><strong aria-hidden="true">7.3.</strong> Parenthesized Types</a></li><li class="chapter-item expanded "><a href="../types/function-types.html"><strong aria-hidden="true">7.4.</strong> Function Types</a></li></ol></li><li class="chapter-item expanded "><a href="../implementation.html"><strong aria-hidden="true">8.</strong> Implementation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../implementation/passes.html"><strong aria-hidden="true">8.1.</strong> Passes</a></li><li class="chapter-item expanded "><a href="../implementation/lexical-analysis.html"><strong aria-hidden="true">8.2.</strong> Lexical Analysis</a></li><li class="chapter-item expanded "><a href="../implementation/parsing.html"><strong aria-hidden="true">8.3.</strong> Syntactic Analysis</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="lexical-syntax.html"><strong aria-hidden="true">1.</strong> Lexical Syntax</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="keywords.html"><strong aria-hidden="true">1.1.</strong> Keywords</a></li><li class="chapter-item expanded "><a href="identifiers.html"><strong aria-hidden="true">1.2.</strong> Identifiers</a></li><li class="chapter-item expanded "><a href="comments.html"><strong aria-hidden="true">1.3.</strong> Comments</a></li></ol></li><li class="chapter-item expanded "><a href="programs.html"><strong aria-hidden="true">2.</strong> L Programs</a></li><li class="chapter-item expanded "><a href="items.html"><strong aria-hidden="true">3.</strong> Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="functions.html"><strong aria-hidden="true">3.1.</strong> Functions</a></li><li class="chapter-item expanded "><a href="adts.html"><strong aria-hidden="true">3.2.</strong> ADT Declarations</a></li><li class="chapter-item expanded "><a href="type-parameters.html"><strong aria-hidden="true">3.3.</strong> Type parameters</a></li></ol></li><li class="chapter-item expanded "><a href="statements.html"><strong aria-hidden="true">4.</strong> Statements</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="statements/let-stmts.html"><strong aria-hidden="true">4.1.</strong> Let Statements</a></li><li class="chapter-item expanded "><a href="statements/expr-stmts.html"><strong aria-hidden="true">4.2.</strong> Expression Statements</a></li></ol></li><li class="chapter-item expanded "><a href="expressions.html"><strong aria-hidden="true">5.</strong> Expressions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lvalues-and-rvalues.html" class="active"><strong aria-hidden="true">5.1.</strong> Lvalues and Rvalues</a></li><li class="chapter-item expanded "><a href="expressions/literal-expr.html"><strong aria-hidden="true">5.2.</strong> Literal Expressions</a></li><li class="chapter-item expanded "><a href="expressions/path-expr.html"><strong aria-hidden="true">5.3.</strong> Path Expressions</a></li><li class="chapter-item expanded "><a href="expressions/group-expr.html"><strong aria-hidden="true">5.4.</strong> Group Expressions</a></li><li class="chapter-item expanded "><a href="expressions/block-expr.html"><strong aria-hidden="true">5.5.</strong> Block Expressions</a></li><li class="chapter-item expanded "><a href="expressions/operator-expr.html"><strong aria-hidden="true">5.6.</strong> Operator Expressions</a></li><li class="chapter-item expanded "><a href="expressions/tuple-expr.html"><strong aria-hidden="true">5.7.</strong> Tuple Expressions</a></li><li class="chapter-item expanded "><a href="expressions/return-expr.html"><strong aria-hidden="true">5.8.</strong> Return Expressions</a></li><li class="chapter-item expanded "><a href="expressions/closure-expr.html"><strong aria-hidden="true">5.9.</strong> Closure Expressions</a></li><li class="chapter-item expanded "><a href="expressions/call-expr.html"><strong aria-hidden="true">5.10.</strong> Call Expressions</a></li><li class="chapter-item expanded "><a href="expressions/cond-expr.html"><strong aria-hidden="true">5.11.</strong> Conditional Expressions</a></li><li class="chapter-item expanded "><a href="expressions/struct-expr.html"><strong aria-hidden="true">5.12.</strong> Struct Expressions</a></li></ol></li><li class="chapter-item expanded "><a href="patterns.html"><strong aria-hidden="true">6.</strong> Patterns</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="patterns/identifier-pattern.html"><strong aria-hidden="true">6.1.</strong> Identifier Pattern</a></li><li class="chapter-item expanded "><a href="patterns/wildcard-pattern.html"><strong aria-hidden="true">6.2.</strong> Wildcard Pattern</a></li></ol></li><li class="chapter-item expanded "><a href="type-system.html"><strong aria-hidden="true">7.</strong> The Type System</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types.html"><strong aria-hidden="true">7.1.</strong> Types</a></li><li class="chapter-item expanded "><a href="types/primitive-types.html"><strong aria-hidden="true">7.2.</strong> Primitive Types</a></li><li class="chapter-item expanded "><a href="types/parenthesized-types.html"><strong aria-hidden="true">7.3.</strong> Parenthesized Types</a></li><li class="chapter-item expanded "><a href="types/function-types.html"><strong aria-hidden="true">7.4.</strong> Function Types</a></li></ol></li><li class="chapter-item expanded "><a href="implementation.html"><strong aria-hidden="true">8.</strong> Implementation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="implementation/passes.html"><strong aria-hidden="true">8.1.</strong> Passes</a></li><li class="chapter-item expanded "><a href="implementation/lexical-analysis.html"><strong aria-hidden="true">8.2.</strong> Lexical Analysis</a></li><li class="chapter-item expanded "><a href="implementation/parsing.html"><strong aria-hidden="true">8.3.</strong> Syntactic Analysis</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -128,7 +128,7 @@
                     <h1 class="menu-title">L</h1>
 
                     <div class="right-buttons">
-                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
@@ -159,20 +159,22 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#assignment-expressions" id="assignment-expressions">Assignment Expressions</a></h1>
+                        <h1><a class="header" href="#lvalues-and-rvalues" id="lvalues-and-rvalues">Lvalues and Rvalues</a></h1>
+<h2><a class="header" href="#lvalues" id="lvalues">Lvalues</a></h2>
+<h2><a class="header" href="#rvalues" id="rvalues">Rvalues</a></h2>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="../expressions/return-expr.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="expressions.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
 
                         
-                            <a rel="next" href="../expressions/closure-expr.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="expressions/literal-expr.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -184,13 +186,13 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="../expressions/return-expr.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="expressions.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
 
                 
-                    <a rel="next" href="../expressions/closure-expr.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="expressions/literal-expr.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -213,14 +215,14 @@
         
 
         
-        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
-        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         
