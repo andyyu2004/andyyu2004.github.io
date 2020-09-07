@@ -1,5 +1,7 @@
 # Keywords
 
+> **Lexer**
+>
 >- `fn`
 >- `struct`
 >- `enum`

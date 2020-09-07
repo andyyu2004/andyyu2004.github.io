@@ -1,7 +1,7 @@
 # Comments
 
-> Lexer: \
+> **Lexer**
 >
-> line-comment: `//` \
+> line-comment: `//`
 >
 > block-comment : `/* .. */`

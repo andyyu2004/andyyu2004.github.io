@@ -1,6 +1,6 @@
 # Group Expressions
 
-> **Syntax:**
+> **Syntax**
 >
 > <*group-expr*> ::= `(` <*[expr]*> `)`
 

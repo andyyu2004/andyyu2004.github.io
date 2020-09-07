@@ -1,6 +1,6 @@
 # Expressions
 
-> **Syntax:**
+> **Syntax**
 >
 > <*expr*> ::= \
 > &nbsp; &nbsp; &nbsp; | <*[literal-expr]*> \
@@ -10,7 +10,6 @@
 > &nbsp; &nbsp; &nbsp; | <*[operator-expr]*> \
 > &nbsp; &nbsp; &nbsp; | <*[tuple-expr]*> \
 > &nbsp; &nbsp; &nbsp; | <*[return-expr]*> \
-> &nbsp; &nbsp; &nbsp; | <*[assignment-expr]*> \
 > &nbsp; &nbsp; &nbsp; | <*[closure-expr]*> \
 > &nbsp; &nbsp; &nbsp; | <*[call-expr]*> \
 > &nbsp; &nbsp; &nbsp; | <*[conditional-expr]*> \
@@ -23,7 +22,6 @@
 [operator-expr]: expressions/operator-expr.md
 [tuple-expr]: expressions/tuple-expr.md
 [return-expr]: expressions/return-expr.md
-[assignment-expr]: expressions/assignment-expr.md
 [closure-expr]: expressions/closure-expr.md
 [call-expr]: expressions/call-expr.md
 [conditional-expr]: expressions/cond-expr.md

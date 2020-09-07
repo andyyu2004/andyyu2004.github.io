@@ -4,10 +4,10 @@
 >
 > &lt;_fn_&gt; ::= `fn` &lt;_[ident]_&gt;
 > &lt;_[generics]_&gt;<sup>?</sup> (&lt;_params_&gt;<sup>?</sup>)
-> _&lt;return-type&gt;_
+> _&lt;return-type&gt;_ <sup>?</sup>
 > _&lt;[block-expr]&gt;_\
 >
-> &lt;_params_&gt; ::= &lt;_param_&gt; (`,` &lt;_param_&gt;)<sup>*</sup>
+> <*params*> ::= <*param*> ( `,` <*param*> )<sup>*</sup> `,`<sup>?</sup>
 >
 > <_param_> ::= &lt;_[expr]_&gt; `:` &lt;_[type]_&gt;
 >

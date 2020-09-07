@@ -1,6 +1,6 @@
 # Items
 
-> Syntax:
+> **Syntax**
 >
 > &lt;item&gt; ::= &lt;vis&gt; &lt;item-kind&gt;
 >

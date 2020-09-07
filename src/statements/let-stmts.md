@@ -1,6 +1,6 @@
 # Let Statement
 
-> **Syntax:**
+> **Syntax**
 >
 > <*let-stmt*> ::= `let` <*[pattern]*> ( `:` <*[type]*> ) ( = <*[expr]*> ) `;`
 >
