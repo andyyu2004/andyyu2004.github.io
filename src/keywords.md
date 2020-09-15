@@ -17,3 +17,4 @@
 >- `mut`
 >- `for`
 >- `in`
+>- `unsafe`
