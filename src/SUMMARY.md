@@ -1,12 +1,14 @@
 # Summary
 
 [Introduction](./introduction.md)
+- [Notation](notation.md)
 - [Lexical Syntax](lexical-syntax.md)
     - [Keywords](keywords.md)
     - [Identifiers](identifiers.md)
     - [Comments](comments.md)
 - [L Programs](programs.md)
 - [Items](items.md)
+    - [Modules](modules.md)
     - [Functions](functions.md)
     - [ADT Declarations](adts.md)
     - [Type parameters](type-parameters.md)

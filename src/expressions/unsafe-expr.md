@@ -6,9 +6,10 @@
 >
 >
 
-Unsafe blocks allow you to take references to arbitrary values by the `&` operator. This is
-considered unsafe as there is nothing stopping you from dereferencing a dangling pointer that points
-onto a stack frame that has been dropped.
+Unsafe blocks allow you to take references to arbitrary values by the
+`&` operator. This is considered unsafe as there is nothing stopping you
+from dereferencing a dangling pointer that points onto a stack frame
+that has been dropped.
 
 
 
